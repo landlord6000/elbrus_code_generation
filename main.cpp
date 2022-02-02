@@ -69,14 +69,25 @@ int gen_code(               \
             }
 
             if(args_am > 1){
-                fout << args[1] << init[2] << "_" << init[3] << ", ";   args_count++; // args[1]i_j, 
-                fout << args[2] << init[4] << "_" << init[5] << "";     args_count++; // args[2]i_j 
-                fout << "), ";                                  func_count++; // ), 
-                init_incr+=4;
+                for(int k = 1; k < 3; ++k){
+                    fout << args[k];
+                    for(int j = 0; j < dim[k]; ++j){ 
+                        fout << init[init_incr];
+                        if(j+1 != dim[k])
+                            fout << "_";
+                        else
+                            if(k == 1)
+                                fout << ", "; 
+                            else    
+                                fout << "), ";                                          
+                        init_incr++;
+                    }
+                    args_count++;
+                }
+                func_count++;
             }
             else
                 std::cerr << "amount of args is less than 2\n";
-            
 
             for(int aa = 3; aa < args_am; ++aa){
                 for(int j = 0; j < dim[aa]; ++j){ 
@@ -95,11 +106,9 @@ int gen_code(               \
                 func_count++;
                 fout << "\n";
             }
-
-            for(int i = 0; i < init.size(); ++i)
-            { 
+            for(int i = 0; i < init.size(); ++i){ 
                 printf("%d ", init[i]);
-                init[i] = init[i] + incr_n[i];
+                init[i] =  init[i] + incr_n[i];  
             }
             printf("\n");
           

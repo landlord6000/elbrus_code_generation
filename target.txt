@@ -1,0 +1,56 @@
+c0_0 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a0_0, b0_0), bs0);
+c0_1 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a1_0, b0_0), bs0);
+c0_2 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a2_0, b0_0), bs0);
+c0_3 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a3_0, b0_0), bs0);
+c0_4 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a4_0, b0_0), bs0);
+c0_5 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a5_0, b0_0), bs0);
+
+c1_0 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a0_0, b1_0), bs1);
+c1_1 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a1_0, b1_0), bs1);
+c1_2 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a2_0, b1_0), bs1);
+c1_3 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a3_0, b1_0), bs1);
+c1_4 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a4_0, b1_0), bs1);
+c1_5 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a5_0, b1_0), bs1);
+
+c2_0 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a0_0, b2_0), bs2);
+c2_1 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a1_0, b2_0), bs2);
+c2_2 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a2_0, b2_0), bs2);
+c2_3 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a3_0, b2_0), bs2);
+c2_4 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a4_0, b2_0), bs2);
+c2_5 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a5_0, b2_0), bs2);
+
+c3_0 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a0_0, b3_0), bs3);
+c3_1 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a1_0, b3_0), bs3);
+c3_2 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a2_0, b3_0), bs3);
+c3_3 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a3_0, b3_0), bs3);
+c3_4 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a4_0, b3_0), bs3);
+c3_5 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a5_0, b3_0), bs3);
+
+c4_0 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a0_0, b4_0), bs4);
+c4_1 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a1_0, b4_0), bs4);
+c4_2 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a2_0, b4_0), bs4);
+c4_3 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a3_0, b4_0), bs4);
+c4_4 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a4_0, b4_0), bs4);
+c4_5 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a5_0, b4_0), bs4);
+
+c5_0 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a0_0, b5_0), bs5);
+c5_1 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a1_0, b5_0), bs5);
+c5_2 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a2_0, b5_0), bs5);
+c5_3 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a3_0, b5_0), bs5);
+c5_4 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a4_0, b5_0), bs5);
+c5_5 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a5_0, b5_0), bs5);
+
+c6_0 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a0_0, b6_0), bs6);
+c6_1 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a1_0, b6_0), bs6);
+c6_2 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a2_0, b6_0), bs6);
+c6_3 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a3_0, b6_0), bs6);
+c6_4 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a4_0, b6_0), bs6);
+c6_5 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a5_0, b6_0), bs6);
+
+c7_0 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a0_0, b7_0), bs7);
+c7_1 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a1_0, b7_0), bs7);
+c7_2 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a2_0, b7_0), bs7);
+c7_3 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a3_0, b7_0), bs7);
+c7_4 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a4_0, b7_0), bs7);
+c7_5 = __builtin_e2k_qpfadds(__builtin_e2k_qpfmuls(a5_0, b7_0), bs7);
+
